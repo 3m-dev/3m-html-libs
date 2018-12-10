@@ -1,0 +1,10 @@
+{
+  "name": "@3m/3m-html-libs",
+  "version": "1.0.3",
+  "description": "magicmind microservice managerment html public libs",
+  "author": "zhfjyq@163.com",
+  "bin": {
+    "3m-install-html-lib": "./install-html-lib.js"
+  },
+  "license": "MIT"
+}

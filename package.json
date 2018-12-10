@@ -1,0 +1,17 @@
+{
+  "name": "3m-html-libs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:3m-dev/3m-html-libs.git",
+  "author": "zhufeng <zhfjyq@163.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "material-design-icons-iconfont": "^4.0.3",
+    "roboto-fontface": "*",
+    "vue": "^2.5.19",
+    "vue-router": "^3.0.1",
+    "vuetify": "^1.3.12",
+    "vuex": "^3.0.1"
+  }
+}

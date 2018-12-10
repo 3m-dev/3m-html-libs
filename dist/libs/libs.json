@@ -1,0 +1,56 @@
+{
+  "lodash": {
+    "version": "4.17.11",
+    "global": "_",
+    "js": [
+      "lodash.min.js"
+    ],
+    "css": []
+  },
+  "vue": {
+    "version": "2.5.19",
+    "global": "Vue",
+    "js": [
+      "dist/vue.runtime.min.js"
+    ],
+    "css": []
+  },
+  "vuetify": {
+    "version": "1.3.12",
+    "global": "Vuetify",
+    "js": [
+      "dist/vuetify.min.js"
+    ],
+    "css": [
+      "dist/vuetify.min.css"
+    ]
+  },
+  "vuex": {
+    "version": "3.0.1",
+    "global": "Vuex",
+    "js": [
+      "dist/vuex.min.js"
+    ],
+    "css": []
+  },
+  "vue-router": {
+    "version": "3.0.2",
+    "global": "VueRouter",
+    "js": [],
+    "css": []
+  },
+  "material-design-icons-iconfont": {
+    "version": "4.0.3",
+    "js": [],
+    "css": [
+      "dist/material-design-icons.css"
+    ]
+  },
+  "roboto-fontface": {
+    "version": "0.10.0",
+    "js": [],
+    "css": [
+      "css/roboto/roboto-fontface.css"
+    ]
+  }
+}

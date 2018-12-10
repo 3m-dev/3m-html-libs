@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png" />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- END favicon -->
+    <title>Magicmind MicroService Managerment</title>
+    <link rel="stylesheet" href="libs/vuetify/dist/vuetify.min.css" />
+    <link rel="stylesheet" href="libs/roboto-fontface/css/roboto/roboto-fontface.css" />
+    <link rel="stylesheet" href="libs/material-design-icons-iconfont/dist/material-design-icons.css" />
+  </head>
+
+  <body>
+    <noscript>
+      <strong
+        >We're sorry but mmm html doesn't work properly without JavaScript enabled. Please enable it to
+        continue.</strong
+      >
+    </noscript>
+    <h1><span>magicmind microservice public-html 基础库</span></h1>
+
+    <div id="app"></div>
+    <script src="./libs/vue/dist/vue.runtime.min.js"></script>
+    <script src="./libs/vue-router/dist/vue-router.min.js"></script>
+    <script src="./libs/vuetify/dist/vuetify.min.js"></script>
+    <!-- <script src="./libs/lodash/lodash.min.js"></script> -->
+    <!-- built files will be auto injected -->
+  </body>
+
+  <script>
+    const v = new Vue({ el: "#app" });
+    window.onload = () => {
+      const app = document.getElementById("app");
+      console.log("on loader:", app);
+
+      fetch("libs/libs.json").then(res => {
+        res.json().then(json => {
+          console.log("libs loaded:", json);
+        });
+      });
+    };
+  </script>
+</html>
